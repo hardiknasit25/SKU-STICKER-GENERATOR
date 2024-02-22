@@ -1,0 +1,102 @@
+.m-wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.m-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px 40px;
+  border: 0.1px solid rgb(146, 146, 146);
+  box-shadow: 2px 2px 2px rgb(173, 173, 173);
+}
+
+.m-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.m-input .qr-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: 500;
+}
+
+input {
+  border: 0.5px solid rgb(173, 173, 173);
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+}
+
+select {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+select:focus {
+  outline: none;
+  /* Change border color on focus */
+}
+
+.l-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 350px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  justify-self: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 5px;
+}
